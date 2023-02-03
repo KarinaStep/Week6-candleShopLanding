@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/img1.webp');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #baa69dbc;
+    border: 2px solid #baa69deb;
+    color: #646c76;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #847d84;
+    color: #b5c8d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    text-align: center;
+    clip-path: polygon(50% 14%, 100% 0, 100% 43%, 99% 100%, 69% 100%, 34% 100%, 0 100%, 0% 43%, 0 0);
+    margin-top: -6rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/img3.webp');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #c6b6b0b4;
+    border: 2px solid #baa69deb;
+    color: #646c76;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color: #c6b6b0;
+    color: #4c4139;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    text-align: center;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/img4.webp');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #d4c3bdb4;
+    border: 2px solid #af9c94eb;
+    color: #474c53;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.footer {
+    height: 250px;
+    background-color: #5d6168;
+    color: #c0b3aa;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #d2c2b8;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.5);
+}
